@@ -1,0 +1,41 @@
+<! DOCTYPE html>
+< html >
+< tête >
+  < script  type = ' text / javascript '  src = ' https://cdn.scaledrone.com/scaledrone.min.js ' > </ script >
+  < meta  charset = " utf-8 " >
+  < meta  name = " viewport "  content = " width = device-width " >
+  < style >
+    corps {
+      affichage : flex ;
+      hauteur : 100 vh ;
+      marge : 0 ;
+      align-items : centre ;
+      justifier-contenu : centre ;
+      remplissage : 0  50 px ;
+      famille de polices : -apple-system , BlinkMacSystemFont, sans-serif ;
+    }
+    vidéo {
+      largeur max : calc ( 50 %  -  100 px );
+      marge : 0  50 px ;
+      taille de la boîte : boîte à bordure ;
+      rayon de bordure : 2 px ;
+      rembourrage : 0 ;
+      ombre de la boîte : rgba ( 156 , 172 , 172 , 0.2 ) 0 px  2 px  2 px , rgba ( 156 , 172 , 172 , 0.2 ) 0 px  4 px  4 px , rgba ( 156 , 172 , 172 , 0.2 ) 0 px  8 px  8 px , rgba ( 156, 172 , 172 , 0,2 ) 0 px  16 px  16 px , rgba ( 156 , 172 , 172 , 0,2 ) 0 px  32 px  32 px , rgba ( 156 , 172 , 172 , 0,2 ) 0 px  64 px  64 px ;
+    }
+    .copy {
+      position : fixe ;
+      en haut : 10 px ;
+      à gauche : 50 % ;
+      transformer : translateX ( -50 % );
+      taille de police : 16 px ;
+      couleur : rgba ( 0 , 0 , 0 , 0,5 );
+    }
+  </ style >
+</ head >
+< body >
+  < div  class = " copy " > Envoyez votre URL à un ami pour lancer un appel vidéo </ div >
+  < video  id = " localVideo " la  lecture automatique est en  sourdine > </ video >
+  < video  id = lecture automatique " remoteVideo "  > </ video >
+  < script  src = " script.js " > </ script >
+</ body >
+</ html >
